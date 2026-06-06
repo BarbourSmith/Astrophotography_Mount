@@ -155,6 +155,14 @@
         {
           "name": "Camera_Offset_From_Side",
           "ioValue": 10
+        },
+        {
+          "name": "Phone_Width",
+          "ioValue": 75
+        },
+        {
+          "name": "Phone_Length",
+          "ioValue": 163
         }
       ],
       "topLevel": false,
@@ -173,8 +181,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.23082010582010581,
-          "y": 0.2395543175487465,
+          "x": 0.5972222222222222,
+          "y": 0.15598885793871867,
           "uniqueID": "id-59",
           "name": "Rectangle-Rounded",
           "ioValues": [
@@ -749,8 +757,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.5628306878306878,
-          "y": 0.40111420612813375,
+          "x": 0.7321428571428571,
+          "y": 0.18384401114206128,
           "uniqueID": "id-115",
           "ioValues": [
             {
@@ -766,13 +774,14 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.2394179894179894,
-          "y": 0.7409470752089137,
+          "x": 0.021825396825396824,
+          "y": 0.6908077994428969,
           "uniqueID": "id-119",
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10
+              "ioValue": 15,
+              "currentEquation": "15"
             }
           ]
         },
@@ -791,6 +800,213 @@
           "uniqueID": "id-131",
           "name": "Camera_Offset_From_Side",
           "type": "number"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.033068783068783074,
+          "y": 0.9192200557103064,
+          "uniqueID": "id-134",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 25,
+              "currentEquation": "25"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.13558201058201058,
+          "y": 0.8969359331476323,
+          "uniqueID": "id-141",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": -20,
+              "currentEquation": "-20"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.1302910052910053,
+          "y": 0.6657381615598886,
+          "uniqueID": "id-145",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": -40,
+              "currentEquation": "-40"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.22552910052910055,
+          "y": 0.6768802228412256,
+          "uniqueID": "id-149",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 15,
+              "currentEquation": "15"
+            }
+          ]
+        },
+        {
+          "atomType": "Color",
+          "x": 0.30753968253968256,
+          "y": 0.6908077994428969,
+          "uniqueID": "id-155",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "selectedColor": "Keep Out"
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.3584656084656085,
+          "y": 0.871866295264624,
+          "uniqueID": "id-158",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.8108465608465609,
+          "y": 0.13370473537604458,
+          "uniqueID": "id-161",
+          "name": "Plastic",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "Plastic"
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.24801587301587302,
+          "y": 0.9108635097493036,
+          "uniqueID": "id-164",
+          "name": "Plastic",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "Plastic"
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4629629629629629,
+          "y": 0.8774373259052926,
+          "uniqueID": "id-169",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7830687830687831,
+          "y": 0.6239554317548747,
+          "uniqueID": "id-175",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.3816155988857939,
+          "uniqueID": "id-180",
+          "name": "Phone_Width",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.5125348189415042,
+          "uniqueID": "id-183",
+          "name": "Phone_Length",
+          "type": "number"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2361111111111111,
+          "y": 0.3816155988857939,
+          "uniqueID": "id-186",
+          "name": "W/2-O",
+          "ioValues": [
+            {
+              "name": "W",
+              "ioValue": 75
+            },
+            {
+              "name": "O",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "W/2-O"
         }
       ],
       "allConnectors": [
@@ -800,9 +1016,69 @@
           "ap2ID": "id-115"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "geometry",
           "ap1ID": "id-115",
+          "ap2ID": "id-161"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-119",
+          "ap2ID": "id-145"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-134",
+          "ap2ID": "id-141"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-141",
+          "ap2ID": "id-164"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-145",
+          "ap2ID": "id-149"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-149",
+          "ap2ID": "id-155"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-155",
+          "ap2ID": "id-158"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-158",
+          "ap2ID": "id-169"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-161",
+          "ap2ID": "id-175"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-164",
+          "ap2ID": "id-158"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-169",
+          "ap2ID": "id-175"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-175",
           "ap2ID": "id-10"
+        },
+        {
+          "ap2Name": "W",
+          "ap1ID": "id-180",
+          "ap2ID": "id-186"
         }
       ],
       "fileTypeVersion": 1
@@ -843,9 +1119,19 @@
       "ap2ID": "id-4"
     },
     {
+      "ap2Name": "Phone_Length",
+      "ap1ID": "id-12",
+      "ap2ID": "id-8"
+    },
+    {
       "ap2Name": "Phone_Width",
       "ap1ID": "id-15",
       "ap2ID": "id-4"
+    },
+    {
+      "ap2Name": "Phone_Width",
+      "ap1ID": "id-15",
+      "ap2ID": "id-8"
     },
     {
       "ap2Name": "Camera_Offset_From_Top",
