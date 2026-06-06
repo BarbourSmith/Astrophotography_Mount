@@ -14,5 +14,7 @@
 
 
 
- 
+ Adjust the mount parameters to match your phone's dimensions and then print the mount from a standard material like PLA. Your phone will be held in the correct location to make it easy to take incredible photographs.
+
+
 

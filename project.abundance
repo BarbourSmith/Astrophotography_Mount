@@ -163,8 +163,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2751322751322751,
-      "y": 0.5766016713091923,
+      "x": 0.26256613756613756,
+      "y": 0.6518105849582172,
       "uniqueID": "id-8",
       "name": "Mount",
       "ioValues": [
@@ -201,19 +201,19 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.3802910052910053,
-          "y": 0.11142061281337048,
+          "x": 0.3776455026455026,
+          "y": 0.18105849582172703,
           "uniqueID": "id-59",
           "name": "Rectangle-Rounded",
           "ioValues": [
             {
               "name": "Width",
-              "ioValue": 200,
+              "ioValue": 173,
               "currentEquation": "200"
             },
             {
               "name": "Height",
-              "ioValue": 100,
+              "ioValue": 85,
               "currentEquation": "100"
             },
             {
@@ -295,7 +295,7 @@
               "ioValues": [
                 {
                   "name": "H",
-                  "ioValue": 100
+                  "ioValue": 85
                 },
                 {
                   "name": "R",
@@ -316,11 +316,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 90
+                  "ioValue": 76.5
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 40
+                  "ioValue": 32.5
                 },
                 {
                   "name": "zDist",
@@ -353,7 +353,7 @@
               "ioValues": [
                 {
                   "name": "W",
-                  "ioValue": 200
+                  "ioValue": 173
                 },
                 {
                   "name": "R",
@@ -371,7 +371,7 @@
               "ioValues": [
                 {
                   "name": "H",
-                  "ioValue": 100
+                  "ioValue": 85
                 },
                 {
                   "name": "R",
@@ -392,11 +392,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 90
+                  "ioValue": 76.5
                 },
                 {
                   "name": "yDist",
-                  "ioValue": -40
+                  "ioValue": -32.5
                 },
                 {
                   "name": "zDist",
@@ -416,11 +416,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -90
+                  "ioValue": -76.5
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 40
+                  "ioValue": 32.5
                 },
                 {
                   "name": "zDist",
@@ -440,11 +440,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -90
+                  "ioValue": -76.5
                 },
                 {
                   "name": "yDist",
-                  "ioValue": -40
+                  "ioValue": -32.5
                 },
                 {
                   "name": "zDist",
@@ -461,7 +461,7 @@
               "ioValues": [
                 {
                   "name": "W",
-                  "ioValue": 200
+                  "ioValue": 173
                 },
                 {
                   "name": "R",
@@ -500,7 +500,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-circle-10--90--40-0",
+                    "geometry": "move-circle-10--76.5--32.5-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -527,7 +527,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-circle-10--90-40-0",
+                    "geometry": "move-circle-10--76.5-32.5-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -554,7 +554,7 @@
                 {
                   "name": "Shape 3",
                   "ioValue": {
-                    "geometry": "move-circle-10-90--40-0",
+                    "geometry": "move-circle-10-76.5--32.5-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -581,7 +581,7 @@
                 {
                   "name": "Shape 4",
                   "ioValue": {
-                    "geometry": "move-circle-10-90-40-0",
+                    "geometry": "move-circle-10-76.5-32.5-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -1012,8 +1012,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.24007936507936506,
-          "y": 0.40668523676880225,
+          "x": 0.32407407407407407,
+          "y": 0.5292479108635098,
           "uniqueID": "id-186",
           "name": "W/-2+O",
           "ioValues": [
@@ -1030,8 +1030,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.25462962962962965,
-          "y": 0.2256267409470752,
+          "x": 0.3392857142857143,
+          "y": 0.38718662952646243,
           "uniqueID": "id-192",
           "name": "L/-2+O",
           "ioValues": [
@@ -1633,6 +1633,34 @@
           "unitsKey": "MM",
           "fileTypeVersion": 1,
           "lastReloadedFromGithubAt": 1780766955614
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.26653439153439157,
+          "y": 0.2841225626740947,
+          "uniqueID": "id-352",
+          "name": "W+10",
+          "ioValues": [
+            {
+              "name": "W",
+              "ioValue": 75
+            }
+          ],
+          "currentEquation": "W+10"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2638888888888889,
+          "y": 0.08635097493036212,
+          "uniqueID": "id-357",
+          "name": "L+10",
+          "ioValues": [
+            {
+              "name": "L",
+              "ioValue": 163
+            }
+          ],
+          "currentEquation": "L+10"
         }
       ],
       "allConnectors": [
@@ -1722,9 +1750,19 @@
           "ap2ID": "id-186"
         },
         {
+          "ap2Name": "W",
+          "ap1ID": "id-180",
+          "ap2ID": "id-352"
+        },
+        {
           "ap2Name": "L",
           "ap1ID": "id-183",
           "ap2ID": "id-192"
+        },
+        {
+          "ap2Name": "L",
+          "ap1ID": "id-183",
+          "ap2ID": "id-357"
         },
         {
           "ap2Name": "yDist",
@@ -1755,6 +1793,16 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-305",
           "ap2ID": "id-175"
+        },
+        {
+          "ap2Name": "Height",
+          "ap1ID": "id-352",
+          "ap2ID": "id-59"
+        },
+        {
+          "ap2Name": "Width",
+          "ap1ID": "id-357",
+          "ap2ID": "id-59"
         }
       ],
       "fileTypeVersion": 1
@@ -1871,6 +1919,21 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Astrophotography_Mount"
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.4642857142857143,
+      "y": 0.6935933147632313,
+      "uniqueID": "id-362",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Adjust the mount parameters to match your phone's dimensions and then print the mount from a standard material like PLA. Your phone will be held in the correct location to make it easy to take incredible photographs.",
+      "global": true
     }
   ],
   "allConnectors": [
